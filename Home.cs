@@ -16,5 +16,10 @@ namespace FrizerskiSalon
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.google.com");
+        }
     }
 }
