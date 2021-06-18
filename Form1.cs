@@ -17,8 +17,10 @@ namespace FrizerskiSalon
         {
             InitializeComponent();
             home1.BringToFront();
-            
-            
+
+            homeBtn.BackColor = Color.FromArgb(255, 153, 0);
+
+
         }
 
         private void homeBtn_Click(object sender, EventArgs e)
